@@ -386,7 +386,7 @@ const surge = require('gulp-surge')
 gulp.task('deploy', function (done) {
   surge({
     project: './dist',         // Path to your static build directory
-    domain: 'pre.college'  // Your domain or Surge subdomain
+    domain: 'workinplay.com'  // Your domain or Surge subdomain
   })
 
   done();

@@ -3,3 +3,23 @@
 // user.scss
 //
 // Place your own custom CSS or SCSS rules below this line, these rules will override any Bootstrap and theme variables.
+$font-family: 'Abel', sans-serif;
+$header-font-family: 'Righteous', cursive;
+$primary:       #263238;
+$primary-2:     #e8505b;
+$primary-3:     #455a64;
+$primary-alt: #b78876;
+
+:root{
+  --font-family-sans-serif: $font-family;
+  --font-family-monospace: $header-font-family;
+}
+
+html, body{
+  font-family: $font-family;
+}
+
+h1,h2,h3,h4{
+  font-family: $header-font-family;
+}
+
